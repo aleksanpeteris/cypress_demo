@@ -1,0 +1,9 @@
+{
+  "name": "cypress_demo",
+  "version": "0.0.1",
+  "description": "Demo Cypress project",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "author": "p.aleksan"
+}
