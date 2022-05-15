@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('checkButtonAvailability', (pattern, color = false) => {
+    var button = (color) ? cy.get("[fill='" + pattern + "']").parents("[type='button']") : cy.contains("[type='button']", pattern)
+    button.find('div').then($els => {
+      const win = $els[0].ownerDocument.defaultView
+      const after = win.getComputedStyle($els[0], '::after')
+      const contentValue = after.getPropertyValue('background-image')
+      expect(contentValue).to.be.oneOf(['url("https://cdn1.ozone.ru/graphics/assets/svg/diagonal-apparel.svg")', 'none']);
+    })
+  })

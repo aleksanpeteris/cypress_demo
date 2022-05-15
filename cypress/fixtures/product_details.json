@@ -1,0 +1,70 @@
+{
+    "baseProductName": " Планшет Apple iPad Pro (2020) Wi-Fi, 12.9\", ",
+    "parameters":
+    {
+    "type": 
+    {
+        "attribute": "Тип",
+        "value": "Планшет"
+    },
+    "diagonal": 
+    {
+        "attribute": "Диагональ экрана, дюймы",
+        "value": "12.9"
+    },
+    "interfaces": 
+    {
+        "attribute": "Беспроводные интерфейсы",
+        "value": "Bluetooth, Wi-Fi"
+    },
+    "internalMemory": 
+    {
+        "attribute": "Встроенная память,  ГБ",
+        "value": "1024", 
+        "possibleValues": ["128", "256", "512", "1024"]
+    },
+    "RAM": 
+    {
+        "attribute": "Оперативная память",
+        "value": "16 ГБ"
+    },
+    "screenResolution": 
+    {
+        "attribute": "Разрешение экрана",
+        "value": "2732x2048"
+    },
+    "OS": 
+    {
+        "attribute": "Операционная система",
+        "value": "iPadOS"
+    },
+    "screenMatrix":     
+    {
+        "attribute": "Технология матрицы",
+        "value": "IPS"
+    },
+    "processor": 
+    {
+        "attribute": "Процессор",
+        "value": "A12Z Bionic (8 ядер), 2.41 ГГц"
+    },
+    "mainCameraResolution": 
+    {
+        "attribute": "Разрешение основной камеры, Мпикс",
+        "value": "12"
+    },
+    "configurations": 
+    {
+        "states": ["Новые", "Уцененные"],
+        "colours": [
+        {
+            "word": "cеребристый",
+            "code": "#c0c0c0"
+        },
+        {
+            "word": "серый",
+            "code": "#666666"
+        }
+    ]
+    }}
+}
