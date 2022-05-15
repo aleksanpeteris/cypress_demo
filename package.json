@@ -3,7 +3,13 @@
   "version": "0.0.1",
   "description": "Demo Cypress project",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run:chrome": "cypress run --reporter mochawesome --browser chrome --spec cypress/integration/demo_tests/demo_testsuite.js",
+    "cypress:run:firefox": "cypress run --reporter mochawesome --browser firefox --spec cypress/integration/demo_tests/demo_testsuite.js",
+    "cypress:run:electron": "cypress run --reporter mochawesome --browser electron --spec cypress/integration/demo_tests/demo_testsuite.js"
   },
-  "author": "p.aleksan"
+  "author": "p.aleksan",
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
 }
